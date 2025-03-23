@@ -1,0 +1,911 @@
+{
+    "products": [
+        {
+            "product_id": 1,
+            "name": "Tai nghe in-ear có dây INNOWAVE WEP-0405",
+            "description": {
+                "Công nghệ âm thanh": "Dynamic Driver 12.4 mm",
+                "Tương thích": "Thiết bị hỗ trợ chuyển đổi âm thanh qua cổng Type C",
+                "Jack cắm": "Type C",
+                "Độ dài dây": "130 cm",
+                "Tiện ích": [
+                    "Có mic thoại",
+                    "Khử tiếng ồn AI"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Điều khiển": "Phím nhấn",
+                "Phím điều khiển": [
+                    "Tăng/giảm âm lượng",
+                    "Phát/dừng chơi nhạc",
+                    "Chuyển bài hát",
+                    "Nhận/Ngắt cuộc gọi"
+                ],
+                "Khối lượng": "12.82 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 40,
+            "category_id": 4,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WEP-0405.jpg",
+            "original_price": 460000,
+            "discount_percentage": 30,
+            "discounted_price": 320000
+        },
+        {
+            "product_id": 2,
+            "name": "Tai nghe in-ear có dây INNOWAVE WEP-0400",
+            "description": {
+                "Công nghệ âm thanh": "Dynamic Driver 12.4 mm",
+                "Tương thích": "Thiết bị hỗ trợ chuyển đổi âm thanh qua cổng Type C",
+                "Jack cắm": "Type C",
+                "Độ dài dây": "130 cm",
+                "Tiện ích": [
+                    "Có mic thoại",
+                    "Khử tiếng ồn AI"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Điều khiển": "Phím nhấn",
+                "Phím điều khiển": [
+                    "Tăng/giảm âm lượng",
+                    "Phát/dừng chơi nhạc",
+                    "Chuyển bài hát",
+                    "Nhận/Ngắt cuộc gọi"
+                ],
+                "Khối lượng": "12.82 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 62,
+            "category_id": 4,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WEP-0400.jpg",
+            "original_price": 660000,
+            "discount_percentage": 30,
+            "discounted_price": 460000
+        },
+        {
+            "product_id": 3,
+            "name": "Tai nghe in-ear có dây INNOWAVE WEP-0401",
+            "description": {
+                "Công nghệ âm thanh": "Dynamic Driver 12.4 mm",
+                "Tương thích": "Thiết bị hỗ trợ chuyển đổi âm thanh qua cổng Type C",
+                "Jack cắm": "Type C",
+                "Độ dài dây": "130 cm",
+                "Tiện ích": [
+                    "Có mic thoại",
+                    "Khử tiếng ồn AI"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Điều khiển": "Phím nhấn",
+                "Phím điều khiển": [
+                    "Tăng/giảm âm lượng",
+                    "Phát/dừng chơi nhạc",
+                    "Chuyển bài hát",
+                    "Nhận/Ngắt cuộc gọi"
+                ],
+                "Khối lượng": "12.82 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 61,
+            "category_id": 4,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WEP-0401.jpg",
+            "original_price": 800000,
+            "discount_percentage": 40,
+            "discounted_price": 480000
+        },
+        {
+            "product_id": 4,
+            "name": "Tai nghe in-ear có dây INNOWAVE WEP-0402",
+            "description": {
+                "Công nghệ âm thanh": "Dynamic Driver 12.4 mm",
+                "Tương thích": "Thiết bị hỗ trợ chuyển đổi âm thanh qua cổng Type C",
+                "Jack cắm": "Type C",
+                "Độ dài dây": "130 cm",
+                "Tiện ích": [
+                    "Có mic thoại",
+                    "Khử tiếng ồn AI"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Điều khiển": "Phím nhấn",
+                "Phím điều khiển": [
+                    "Tăng/giảm âm lượng",
+                    "Phát/dừng chơi nhạc",
+                    "Chuyển bài hát",
+                    "Nhận/Ngắt cuộc gọi"
+                ],
+                "Khối lượng": "12.82 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 43,
+            "category_id": 4,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WEP-0402.jpg",
+            "original_price": 620000,
+            "discount_percentage": 35,
+            "discounted_price": 400000
+        },
+        {
+            "product_id": 5,
+            "name": "Tai nghe in-ear có dây INNOWAVE WEP-0403",
+            "description": {
+                "Công nghệ âm thanh": "Dynamic Driver 12.4 mm",
+                "Tương thích": "Thiết bị hỗ trợ chuyển đổi âm thanh qua cổng Type C",
+                "Jack cắm": "Type C",
+                "Độ dài dây": "130 cm",
+                "Tiện ích": [
+                    "Có mic thoại",
+                    "Khử tiếng ồn AI"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Điều khiển": "Phím nhấn",
+                "Phím điều khiển": [
+                    "Tăng/giảm âm lượng",
+                    "Phát/dừng chơi nhạc",
+                    "Chuyển bài hát",
+                    "Nhận/Ngắt cuộc gọi"
+                ],
+                "Khối lượng": "12.82 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 65,
+            "category_id": 4,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WEP-0403.jpg",
+            "original_price": 820000,
+            "discount_percentage": 40,
+            "discounted_price": 490000
+        },
+        {
+            "product_id": 6,
+            "name": "Tai nghe in-ear có dây INNOWAVE WEP-0404",
+            "description": {
+                "Công nghệ âm thanh": "Dynamic Driver 12.4 mm",
+                "Tương thích": "Thiết bị hỗ trợ chuyển đổi âm thanh qua cổng Type C",
+                "Jack cắm": "Type C",
+                "Độ dài dây": "130 cm",
+                "Tiện ích": [
+                    "Có mic thoại",
+                    "Khử tiếng ồn AI"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Điều khiển": "Phím nhấn",
+                "Phím điều khiển": [
+                    "Tăng/giảm âm lượng",
+                    "Phát/dừng chơi nhạc",
+                    "Chuyển bài hát",
+                    "Nhận/Ngắt cuộc gọi"
+                ],
+                "Khối lượng": "12.82 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 72,
+            "category_id": 4,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WEP-0404.jpg",
+            "original_price": 740000,
+            "discount_percentage": 35,
+            "discounted_price": 480000
+        },
+        {
+            "product_id": 7,
+            "name": "Tai nghe chụp tai có dây INNOWAVE WHP-0300",
+            "description": {
+                "Tương thích": [
+                    "Windows Phone",
+                    "Android",
+                    "iOS",
+                    "Windows"
+                ],
+                "Jack cắm": "3.5 mm",
+                "Độ dài dây": "149 cm",
+                "Tiện ích": [
+                    "Có mic thoại"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Điều khiển": "Phím nhấn",
+                "Phím điều khiển": [
+                    "Tăng/giảm âm lượng",
+                    "Phát/dừng chơi nhạc",
+                    "Nghe/ngắt cuộc gọi",
+                    "Mic thoại"
+                ],
+                "Khối lượng": "180 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 55,
+            "category_id": 3,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WHP-0300.jpg",
+            "original_price": 370000,
+            "discount_percentage": 25,
+            "discounted_price": 280000
+        },
+        {
+            "product_id": 8,
+            "name": "Tai nghe chụp tai có dây INNOWAVE WHP-0301",
+            "description": {
+                "Tương thích": [
+                    "Windows Phone",
+                    "Android",
+                    "iOS",
+                    "Windows"
+                ],
+                "Jack cắm": "3.5 mm",
+                "Độ dài dây": "149 cm",
+                "Tiện ích": [
+                    "Có mic thoại"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Điều khiển": "Phím nhấn",
+                "Phím điều khiển": [
+                    "Tăng/giảm âm lượng",
+                    "Phát/dừng chơi nhạc",
+                    "Nghe/ngắt cuộc gọi",
+                    "Mic thoại"
+                ],
+                "Khối lượng": "180 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 49,
+            "category_id": 3,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WHP-0301.jpg",
+            "original_price": 570000,
+            "discount_percentage": 25,
+            "discounted_price": 430000
+        },
+        {
+            "product_id": 9,
+            "name": "Tai nghe chụp tai có dây INNOWAVE WHP-0302",
+            "description": {
+                "Tương thích": [
+                    "Windows Phone",
+                    "Android",
+                    "iOS",
+                    "Windows"
+                ],
+                "Jack cắm": "3.5 mm",
+                "Độ dài dây": "149 cm",
+                "Tiện ích": [
+                    "Có mic thoại"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Điều khiển": "Phím nhấn",
+                "Phím điều khiển": [
+                    "Tăng/giảm âm lượng",
+                    "Phát/dừng chơi nhạc",
+                    "Nghe/ngắt cuộc gọi",
+                    "Mic thoại"
+                ],
+                "Khối lượng": "180 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 69,
+            "category_id": 3,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WHP-0302.jpg",
+            "original_price": 450000,
+            "discount_percentage": 40,
+            "discounted_price": 270000
+        },
+        {
+            "product_id": 10,
+            "name": "Tai nghe chụp tai có dây INNOWAVE WHP-0303",
+            "description": {
+                "Tương thích": [
+                    "Windows Phone",
+                    "Android",
+                    "iOS",
+                    "Windows"
+                ],
+                "Jack cắm": "3.5 mm",
+                "Độ dài dây": "149 cm",
+                "Tiện ích": [
+                    "Có mic thoại"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Điều khiển": "Phím nhấn",
+                "Phím điều khiển": [
+                    "Tăng/giảm âm lượng",
+                    "Phát/dừng chơi nhạc",
+                    "Nghe/ngắt cuộc gọi",
+                    "Mic thoại"
+                ],
+                "Khối lượng": "180 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 78,
+            "category_id": 3,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WHP-0303.jpg",
+            "original_price": 430000,
+            "discount_percentage": 35,
+            "discounted_price": 280000
+        },
+        {
+            "product_id": 11,
+            "name": "Tai nghe chụp tai có dây INNOWAVE WHP-0304",
+            "description": {
+                "Tương thích": [
+                    "Windows Phone",
+                    "Android",
+                    "iOS",
+                    "Windows"
+                ],
+                "Jack cắm": "3.5 mm",
+                "Độ dài dây": "149 cm",
+                "Tiện ích": [
+                    "Có mic thoại"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Điều khiển": "Phím nhấn",
+                "Phím điều khiển": [
+                    "Tăng/giảm âm lượng",
+                    "Phát/dừng chơi nhạc",
+                    "Nghe/ngắt cuộc gọi",
+                    "Mic thoại"
+                ],
+                "Khối lượng": "180 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 49,
+            "category_id": 3,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WHP-0304.jpg",
+            "original_price": 600000,
+            "discount_percentage": 20,
+            "discounted_price": 480000
+        },
+        {
+            "product_id": 12,
+            "name": "Tai nghe in-ear không dây INNOWAVE WLEP-0200",
+            "description": {
+                "Thời lượng pin tai nghe": "Dùng 6 giờ - Sạc 1.5 giờ",
+                "Thời lượng pin hộp sạc": "Dùng 30 giờ - Sạc 2 giờ",
+                "Cổng sạc": "Type-C",
+                "Công nghệ âm thanh": "Công nghệ ENC",
+                "Tương thích": [
+                    "macOS",
+                    "Android",
+                    "iOS",
+                    "Windows"
+                ],
+                "Tiện ích": [
+                    "Có mic thoại",
+                    "Chống ồn"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Công nghệ kết nối": "Bluetooth 5.3",
+                "Điều khiển": "Cảm ứng chạm",
+                "Phím điều khiển": [
+                    "Phát/dừng chơi nhạc",
+                    "Chuyển bài hát",
+                    "Bật trợ lí ảo",
+                    "Nhận/Ngắt cuộc gọi"
+                ],
+                "Kích thước": "Dài 3.3 cm - Rộng 2.9 cm - Cao 1.7 cm",
+                "Khối lượng": "4.36 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 63,
+            "category_id": 2,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WLEP-0200.jpg",
+            "original_price": 680000,
+            "discount_percentage": 40,
+            "discounted_price": 410000
+        },
+        {
+            "product_id": 13,
+            "name": "Tai nghe in-ear không dây INNOWAVE WLEP-0201",
+            "description": {
+                "Thời lượng pin tai nghe": "Dùng 6 giờ - Sạc 1.5 giờ",
+                "Thời lượng pin hộp sạc": "Dùng 30 giờ - Sạc 2 giờ",
+                "Cổng sạc": "Type-C",
+                "Công nghệ âm thanh": "Công nghệ ENC",
+                "Tương thích": [
+                    "macOS",
+                    "Android",
+                    "iOS",
+                    "Windows"
+                ],
+                "Tiện ích": [
+                    "Có mic thoại",
+                    "Chống ồn"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Công nghệ kết nối": "Bluetooth 5.3",
+                "Điều khiển": "Cảm ứng chạm",
+                "Phím điều khiển": [
+                    "Phát/dừng chơi nhạc",
+                    "Chuyển bài hát",
+                    "Bật trợ lí ảo",
+                    "Nhận/Ngắt cuộc gọi"
+                ],
+                "Kích thước": "Dài 3.3 cm - Rộng 2.9 cm - Cao 1.7 cm",
+                "Khối lượng": "4.36 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 69,
+            "category_id": 2,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WLEP-0201.jpg",
+            "original_price": 430000,
+            "discount_percentage": 35,
+            "discounted_price": 280000
+        },
+        {
+            "product_id": 14,
+            "name": "Tai nghe in-ear không dây INNOWAVE WLEP-0202",
+            "description": {
+                "Thời lượng pin tai nghe": "Dùng 6 giờ - Sạc 1.5 giờ",
+                "Thời lượng pin hộp sạc": "Dùng 30 giờ - Sạc 2 giờ",
+                "Cổng sạc": "Type-C",
+                "Công nghệ âm thanh": "Công nghệ ENC",
+                "Tương thích": [
+                    "macOS",
+                    "Android",
+                    "iOS",
+                    "Windows"
+                ],
+                "Tiện ích": [
+                    "Có mic thoại",
+                    "Chống ồn"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Công nghệ kết nối": "Bluetooth 5.3",
+                "Điều khiển": "Cảm ứng chạm",
+                "Phím điều khiển": [
+                    "Phát/dừng chơi nhạc",
+                    "Chuyển bài hát",
+                    "Bật trợ lí ảo",
+                    "Nhận/Ngắt cuộc gọi"
+                ],
+                "Kích thước": "Dài 3.3 cm - Rộng 2.9 cm - Cao 1.7 cm",
+                "Khối lượng": "4.36 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 50,
+            "category_id": 2,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WLEP-0202.jpg",
+            "original_price": 550000,
+            "discount_percentage": 20,
+            "discounted_price": 440000
+        },
+        {
+            "product_id": 15,
+            "name": "Tai nghe in-ear không dây INNOWAVE WLEP-0203",
+            "description": {
+                "Thời lượng pin tai nghe": "Dùng 6 giờ - Sạc 1.5 giờ",
+                "Thời lượng pin hộp sạc": "Dùng 30 giờ - Sạc 2 giờ",
+                "Cổng sạc": "Type-C",
+                "Công nghệ âm thanh": "Công nghệ ENC",
+                "Tương thích": [
+                    "macOS",
+                    "Android",
+                    "iOS",
+                    "Windows"
+                ],
+                "Tiện ích": [
+                    "Có mic thoại",
+                    "Chống ồn"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Công nghệ kết nối": "Bluetooth 5.3",
+                "Điều khiển": "Cảm ứng chạm",
+                "Phím điều khiển": [
+                    "Phát/dừng chơi nhạc",
+                    "Chuyển bài hát",
+                    "Bật trợ lí ảo",
+                    "Nhận/Ngắt cuộc gọi"
+                ],
+                "Kích thước": "Dài 3.3 cm - Rộng 2.9 cm - Cao 1.7 cm",
+                "Khối lượng": "4.36 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 44,
+            "category_id": 2,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WLEP-0203.jpg",
+            "original_price": 830000,
+            "discount_percentage": 40,
+            "discounted_price": 500000
+        },
+        {
+            "product_id": 16,
+            "name": "Tai nghe in-ear không dây INNOWAVE WLEP-0204",
+            "description": {
+                "Thời lượng pin tai nghe": "Dùng 6 giờ - Sạc 1.5 giờ",
+                "Thời lượng pin hộp sạc": "Dùng 30 giờ - Sạc 2 giờ",
+                "Cổng sạc": "Type-C",
+                "Công nghệ âm thanh": "Công nghệ ENC",
+                "Tương thích": [
+                    "macOS",
+                    "Android",
+                    "iOS",
+                    "Windows"
+                ],
+                "Tiện ích": [
+                    "Có mic thoại",
+                    "Chống ồn"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Công nghệ kết nối": "Bluetooth 5.3",
+                "Điều khiển": "Cảm ứng chạm",
+                "Phím điều khiển": [
+                    "Phát/dừng chơi nhạc",
+                    "Chuyển bài hát",
+                    "Bật trợ lí ảo",
+                    "Nhận/Ngắt cuộc gọi"
+                ],
+                "Kích thước": "Dài 3.3 cm - Rộng 2.9 cm - Cao 1.7 cm",
+                "Khối lượng": "4.36 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 43,
+            "category_id": 2,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WLEP-0204.jpg",
+            "original_price": 520000,
+            "discount_percentage": 25,
+            "discounted_price": 390000
+        },
+        {
+            "product_id": 17,
+            "name": "Tai nghe in-ear không dây INNOWAVE WLEP-0205",
+            "description": {
+                "Thời lượng pin tai nghe": "Dùng 6 giờ - Sạc 1.5 giờ",
+                "Thời lượng pin hộp sạc": "Dùng 30 giờ - Sạc 2 giờ",
+                "Cổng sạc": "Type-C",
+                "Công nghệ âm thanh": "Công nghệ ENC",
+                "Tương thích": [
+                    "macOS",
+                    "Android",
+                    "iOS",
+                    "Windows"
+                ],
+                "Tiện ích": [
+                    "Có mic thoại",
+                    "Chống ồn"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Công nghệ kết nối": "Bluetooth 5.3",
+                "Điều khiển": "Cảm ứng chạm",
+                "Phím điều khiển": [
+                    "Phát/dừng chơi nhạc",
+                    "Chuyển bài hát",
+                    "Bật trợ lí ảo",
+                    "Nhận/Ngắt cuộc gọi"
+                ],
+                "Kích thước": "Dài 3.3 cm - Rộng 2.9 cm - Cao 1.7 cm",
+                "Khối lượng": "4.36 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 55,
+            "category_id": 2,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WLEP-0205.jpg",
+            "original_price": 650000,
+            "discount_percentage": 35,
+            "discounted_price": 420000
+        },
+        {
+            "product_id": 18,
+            "name": "Tai nghe in-ear không dây INNOWAVE WLEP-0206",
+            "description": {
+                "Thời lượng pin tai nghe": "Dùng 6 giờ - Sạc 1.5 giờ",
+                "Thời lượng pin hộp sạc": "Dùng 30 giờ - Sạc 2 giờ",
+                "Cổng sạc": "Type-C",
+                "Công nghệ âm thanh": "Công nghệ ENC",
+                "Tương thích": [
+                    "macOS",
+                    "Android",
+                    "iOS",
+                    "Windows"
+                ],
+                "Tiện ích": [
+                    "Có mic thoại",
+                    "Chống ồn"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Công nghệ kết nối": "Bluetooth 5.3",
+                "Điều khiển": "Cảm ứng chạm",
+                "Phím điều khiển": [
+                    "Phát/dừng chơi nhạc",
+                    "Chuyển bài hát",
+                    "Bật trợ lí ảo",
+                    "Nhận/Ngắt cuộc gọi"
+                ],
+                "Kích thước": "Dài 3.3 cm - Rộng 2.9 cm - Cao 1.7 cm",
+                "Khối lượng": "4.36 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 45,
+            "category_id": 2,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WLEP-0206.jpg",
+            "original_price": 450000,
+            "discount_percentage": 35,
+            "discounted_price": 290000
+        },
+        {
+            "product_id": 19,
+            "name": "Tai nghe chụp tai không dây INNOWAVE WLHP-0100",
+            "description": {
+                "Thời lượng pin tai nghe": "Dùng 65 giờ - Sạc Khoảng 1.5 giờ",
+                "Cổng sạc": "Type-C",
+                "Công nghệ âm thanh": [
+                    "Bass Enhancement",
+                    "Spatial Audio",
+                    "Hi-Res Audio",
+                    "Driver 50 mm",
+                    "Active Noise Cancelling",
+                    "Công nghệ ENC",
+                    "codec LDAC"
+                ],
+                "Tương thích": [
+                    "macOS",
+                    "Android",
+                    "iOS",
+                    "Windows"
+                ],
+                "Ứng dụng kết nối": "BASEUS",
+                "Jack cắm": "3.5 mm",
+                "Độ dài dây": "1.1 m",
+                "Tiện ích": [
+                    "Sạc nhanh",
+                    "2 Micro chống ồn"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Công nghệ kết nối": "Bluetooth 5.4",
+                "Điều khiển": "Phím nhấn",
+                "Phím điều khiển": [
+                    "Từ chối cuộc gọi",
+                    "Tăng/giảm âm lượng",
+                    "Phát/dừng chơi nhạc",
+                    "Chuyển bài hát",
+                    "Bật/ Tắt ANC",
+                    "Kích hoạt Spatial Audio"
+                ],
+                "Kích thước": "Dài 8.8 cm - Rộng 7.625 cm - Cao 4.58 cm",
+                "Khối lượng": "320 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 41,
+            "category_id": 1,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WLHP-0100.jpg",
+            "original_price": 360000,
+            "discount_percentage": 20,
+            "discounted_price": 290000
+        },
+        {
+            "product_id": 20,
+            "name": "Tai nghe chụp tai không dây INNOWAVE WLHP-0101",
+            "description": {
+                "Thời lượng pin tai nghe": "Dùng 65 giờ - Sạc Khoảng 1.5 giờ",
+                "Cổng sạc": "Type-C",
+                "Công nghệ âm thanh": [
+                    "Bass Enhancement",
+                    "Spatial Audio",
+                    "Hi-Res Audio",
+                    "Driver 50 mm",
+                    "Active Noise Cancelling",
+                    "Công nghệ ENC",
+                    "codec LDAC"
+                ],
+                "Tương thích": [
+                    "macOS",
+                    "Android",
+                    "iOS",
+                    "Windows"
+                ],
+                "Ứng dụng kết nối": "BASEUS",
+                "Jack cắm": "3.5 mm",
+                "Độ dài dây": "1.1 m",
+                "Tiện ích": [
+                    "Sạc nhanh",
+                    "2 Micro chống ồn"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Công nghệ kết nối": "Bluetooth 5.4",
+                "Điều khiển": "Phím nhấn",
+                "Phím điều khiển": [
+                    "Từ chối cuộc gọi",
+                    "Tăng/giảm âm lượng",
+                    "Phát/dừng chơi nhạc",
+                    "Chuyển bài hát",
+                    "Bật/ Tắt ANC",
+                    "Kích hoạt Spatial Audio"
+                ],
+                "Kích thước": "Dài 8.8 cm - Rộng 7.625 cm - Cao 4.58 cm",
+                "Khối lượng": "320 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 78,
+            "category_id": 1,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WLHP-0101.jpg",
+            "original_price": 480000,
+            "discount_percentage": 20,
+            "discounted_price": 380000
+        },
+        {
+            "product_id": 21,
+            "name": "Tai nghe chụp tai không dây INNOWAVE WLHP-0102",
+            "description": {
+                "Thời lượng pin tai nghe": "Dùng 65 giờ - Sạc Khoảng 1.5 giờ",
+                "Cổng sạc": "Type-C",
+                "Công nghệ âm thanh": [
+                    "Bass Enhancement",
+                    "Spatial Audio",
+                    "Hi-Res Audio",
+                    "Driver 50 mm",
+                    "Active Noise Cancelling",
+                    "Công nghệ ENC",
+                    "codec LDAC"
+                ],
+                "Tương thích": [
+                    "macOS",
+                    "Android",
+                    "iOS",
+                    "Windows"
+                ],
+                "Ứng dụng kết nối": "BASEUS",
+                "Jack cắm": "3.5 mm",
+                "Độ dài dây": "1.1 m",
+                "Tiện ích": [
+                    "Sạc nhanh",
+                    "2 Micro chống ồn"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Công nghệ kết nối": "Bluetooth 5.4",
+                "Điều khiển": "Phím nhấn",
+                "Phím điều khiển": [
+                    "Từ chối cuộc gọi",
+                    "Tăng/giảm âm lượng",
+                    "Phát/dừng chơi nhạc",
+                    "Chuyển bài hát",
+                    "Bật/ Tắt ANC",
+                    "Kích hoạt Spatial Audio"
+                ],
+                "Kích thước": "Dài 8.8 cm - Rộng 7.625 cm - Cao 4.58 cm",
+                "Khối lượng": "320 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 80,
+            "category_id": 1,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WLHP-0102.jpg",
+            "original_price": 750000,
+            "discount_percentage": 35,
+            "discounted_price": 490000
+        },
+        {
+            "product_id": 22,
+            "name": "Tai nghe chụp tai không dây INNOWAVE WLHP-0103",
+            "description": {
+                "Thời lượng pin tai nghe": "Dùng 65 giờ - Sạc Khoảng 1.5 giờ",
+                "Cổng sạc": "Type-C",
+                "Công nghệ âm thanh": [
+                    "Bass Enhancement",
+                    "Spatial Audio",
+                    "Hi-Res Audio",
+                    "Driver 50 mm",
+                    "Active Noise Cancelling",
+                    "Công nghệ ENC",
+                    "codec LDAC"
+                ],
+                "Tương thích": [
+                    "macOS",
+                    "Android",
+                    "iOS",
+                    "Windows"
+                ],
+                "Ứng dụng kết nối": "BASEUS",
+                "Jack cắm": "3.5 mm",
+                "Độ dài dây": "1.1 m",
+                "Tiện ích": [
+                    "Sạc nhanh",
+                    "2 Micro chống ồn"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Công nghệ kết nối": "Bluetooth 5.4",
+                "Điều khiển": "Phím nhấn",
+                "Phím điều khiển": [
+                    "Từ chối cuộc gọi",
+                    "Tăng/giảm âm lượng",
+                    "Phát/dừng chơi nhạc",
+                    "Chuyển bài hát",
+                    "Bật/ Tắt ANC",
+                    "Kích hoạt Spatial Audio"
+                ],
+                "Kích thước": "Dài 8.8 cm - Rộng 7.625 cm - Cao 4.58 cm",
+                "Khối lượng": "320 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 50,
+            "category_id": 1,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WLHP-0103.jpg",
+            "original_price": 600000,
+            "discount_percentage": 20,
+            "discounted_price": 480000
+        },
+        {
+            "product_id": 23,
+            "name": "Tai nghe chụp tai không dây INNOWAVE WLHP-0104",
+            "description": {
+                "Thời lượng pin tai nghe": "Dùng 65 giờ - Sạc Khoảng 1.5 giờ",
+                "Cổng sạc": "Type-C",
+                "Công nghệ âm thanh": [
+                    "Bass Enhancement",
+                    "Spatial Audio",
+                    "Hi-Res Audio",
+                    "Driver 50 mm",
+                    "Active Noise Cancelling",
+                    "Công nghệ ENC",
+                    "codec LDAC"
+                ],
+                "Tương thích": [
+                    "macOS",
+                    "Android",
+                    "iOS",
+                    "Windows"
+                ],
+                "Ứng dụng kết nối": "BASEUS",
+                "Jack cắm": "3.5 mm",
+                "Độ dài dây": "1.1 m",
+                "Tiện ích": [
+                    "Sạc nhanh",
+                    "2 Micro chống ồn"
+                ],
+                "Kết nối cùng lúc": "1 thiết bị",
+                "Công nghệ kết nối": "Bluetooth 5.4",
+                "Điều khiển": "Phím nhấn",
+                "Phím điều khiển": [
+                    "Từ chối cuộc gọi",
+                    "Tăng/giảm âm lượng",
+                    "Phát/dừng chơi nhạc",
+                    "Chuyển bài hát",
+                    "Bật/ Tắt ANC",
+                    "Kích hoạt Spatial Audio"
+                ],
+                "Kích thước": "Dài 8.8 cm - Rộng 7.625 cm - Cao 4.58 cm",
+                "Khối lượng": "320 g",
+                "Thương hiệu của": "Việt Nam",
+                "Sản xuất tại": "Việt Nam",
+                "Hãng": "INNOWAVE"
+            },
+            "stock": 59,
+            "category_id": 1,
+            "image_url": "assets/innowave_product_list/INNOWAVE_WLHP-0104.jpg",
+            "original_price": 600000,
+            "discount_percentage": 20,
+            "discounted_price": 480000
+        }
+    ]
+}

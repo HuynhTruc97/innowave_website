@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+.register-form {
+    max-width: 600px;
+    margin: 1rem auto;
+    padding: 2rem 3rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 8rem;
+    font-family: 'OpenSans-Regular', sans-serif;
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'OpenSans-Regular', sans-serif;
+}
+
+/* Điều chỉnh input */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #5792AD;
+    border-radius: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    font-family: 'OpenSans-Regular', sans-serif;
+    transition: border-color 0.3s;
+}
+
+/* Hint text */
+.hint {
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+    line-height: 1.4;
+}
+
+.required {
+    color: red;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    color: #03456a;
+    margin-top: 10px;
+}
+
+/* Nút đăng ký */
+.btn-submit {
+    background: #5792ad;
+    border: 1px solid #5792ad;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.btn-submit:hover {
+    background: #ffffff;
+    color: #03456a;
+    border: 1px solid #03456a;
+}
+
+/* Checkbox */
+.form-check {
+    margin: 1.5rem 0;
+    align-items: center;
+}
+
+.form-check input {
+    margin: 0;
+}
+
+.form-check label {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+/* Error message */
+.error {
+    color: #dc3545;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+}
+
+/* Phần chuyển hướng đăng nhập */
+.login-redirect {
+    text-align: center;
+    margin: 1.5rem 0;
+    color: #666;
+    font-size: 16px;
+}
+
+.login-redirect a {
+    color: #5792ad;
+    text-decoration: none;
+    font-family: 'OpenSans-Regular', sans-serif;
+}
+
+.login-redirect a:hover {
+    color: #03456a;
+    text-decoration: underline;
+}
+
+/* Social login section */
+.social-login {
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.divider {
+    color: #666;
+    font-size: 16px;
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    margin: 0 10px;
+}
+
+/* Icon container */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 1.5rem;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background: none;
+}
+
+.social-icon:hover {
+    background: #f8f9fa;
+    transform: translateY(-2px);
+}
+
+.social-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+/* Success Modal */
+.success-modal {
+    font-family: 'OpenSans-Regular', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    max-width: 500px;
+    width: 90%;
+    animation: modalSlideIn 0.3s ease-out;
+}
+
+@keyframes modalSlideIn {
+    from {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Đảm bảo form không bị ảnh hưởng bởi popup */
+.register-form {
+    position: relative;
+    z-index: 1;
+}

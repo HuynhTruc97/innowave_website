@@ -1,0 +1,175 @@
+<body>
+  <!-- Banner quảng cáo -->
+  <a routerLink="/products" class="homepage-banner-link">
+    <img src="assets/banner_homepage/promotion.png" alt="Khuyến mãi" class="homepage-banner-img">
+  </a>
+
+  <!-- Banner Category -->
+  <div class="banner-category-container">
+    <!-- Banner 1 -->
+    <div class="banner-box">
+      <a routerLink="/product_page_WLHP">
+        <img src="assets/banner_category/banner-1-1.png" alt="Tai nghe chụp tai không dây" class="banner-1-1" />
+      </a>
+    </div>
+
+    <!-- Banner 2 -->
+    <div class="banner-box">
+      <a routerLink="/product_page_WLEP">
+        <img src="assets/banner_category/banner-2-1.png" alt="Tai nghe chụp tai không dây" class="banner-1-1" />
+      </a>
+    </div>
+
+    <!-- Banner 3 -->
+    <div class="banner-box">
+      <a routerLink="/product_page_WHP">
+        <img src="assets/banner_category/banner-3-1.png" alt="Tai nghe chụp tai không dây" class="banner-1-1" />
+      </a>
+    </div>
+
+    <!-- Banner 4 -->
+    <div class="banner-box">
+      <a routerLink="/product_page_WEP">
+        <img src="assets/banner_category/banner-4-1.png" alt="Tai nghe chụp tai không dây" class="banner-1-1" />
+      </a>
+    </div>
+  </div>
+  <!-- Khối 1: Sản phẩm mới nhất -->
+  <div class="homepage-section">
+    <h3 class="homepage-title">Sản phẩm mới nhất</h3>
+    <div class="product-list">
+      <div *ngIf="newestProducts.length === 0" class="loading">Đang tải sản phẩm...</div>
+      <div *ngFor="let product of newestProducts | slice:0:4" class="product">
+        <div class="frame-93">
+          <div class="_30">-{{ product.discount_percentage }}%</div>
+        </div>
+        <div class="image">
+          <a [routerLink]="['/product-detail', product.product_id]">
+            <img class="product-image" [src]="product.image_url" [alt]="product.name">
+          </a>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item2">{{ product.name }}</div>
+        </div>
+        <div class="menu-item3">
+          <div class="menu-item4">₫ {{ product.discounted_price | number }}</div>
+        </div>
+        <div class="menu-item5">
+          <div class="menu-item6">₫ {{ product.original_price | number }}</div>
+        </div>
+        <div class="button" (click)="buyProduct(product)">
+          <div class="button2">Thêm vào giỏ hàng</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Khối 2: Sản phẩm bán chạy -->
+  <div class="homepage-section">
+    <h3 class="homepage-title">Sản phẩm bán chạy</h3>
+    <div class="product-list">
+      <div *ngIf="bestSellerProducts.length === 0" class="loading">Đang tải sản phẩm...</div>
+      <div *ngFor="let product of bestSellerProducts | slice:0:4" class="product">
+        <div class="frame-93">
+          <div class="_30">-{{ product.discount_percentage }}%</div>
+        </div>
+        <div class="image">
+          <a [routerLink]="['/product-detail', product.product_id]">
+            <img class="product-image" [src]="product.image_url" [alt]="product.name">
+          </a>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item2">{{ product.name }}</div>
+        </div>
+        <div class="menu-item3">
+          <div class="menu-item4">₫ {{ product.discounted_price | number }}</div>
+        </div>
+        <div class="menu-item5">
+          <div class="menu-item6">₫ {{ product.original_price | number }}</div>
+        </div>
+        <div class="button" (click)="buyProduct(product)">
+          <div class="button2">Thêm vào giỏ hàng</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Khối 3: Sản phẩm khuyến mãi -->
+  <div class="homepage-section">
+    <h3 class="homepage-title">Sản phẩm khuyến mãi</h3>
+    <div class="product-list">
+      <div *ngIf="discountProducts.length === 0" class="loading">Đang tải sản phẩm...</div>
+      <div *ngFor="let product of discountProducts | slice:0:4" class="product">
+        <div class="frame-93">
+          <div class="_30">-{{ product.discount_percentage }}%</div>
+        </div>
+        <div class="image">
+          <a [routerLink]="['/product-detail', product.product_id]">
+            <img class="product-image" [src]="product.image_url" [alt]="product.name">
+          </a>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item2">{{ product.name }}</div>
+        </div>
+        <div class="menu-item3">
+          <div class="menu-item4">₫ {{ product.discounted_price | number }}</div>
+        </div>
+        <div class="menu-item5">
+          <div class="menu-item6">₫ {{ product.original_price | number }}</div>
+        </div>
+        <div class="button" (click)="buyProduct(product)">
+          <div class="button2">Thêm vào giỏ hàng</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Khối Blog -->
+  <div class="blog-section">
+    <h3 class="homepage-title">BLOG</h3>
+    <div class="blog-list">
+      <!-- Bài blog 1 -->
+      <div class="blog-item">
+        <div class="image-12">
+          <img src="assets/blog_image/headphone.png" alt="Tai nghe Sony" />
+        </div>
+        <div class="blog-info">
+          <div class="blog-post-title">
+            Tai nghe Sony WH-1000XM6 sắp ra mắt sẽ trở thành headphone đáng mua nhất năm 2025?
+          </div>
+          <div class="blog-post-meta">
+            Lê P.N, 15/02/2025
+          </div>
+        </div>
+      </div>
+      <!-- Bài blog 2 -->
+      <div class="blog-item">
+        <div class="image-12">
+          <img src="assets/blog_image/headphone.png" alt="Tai nghe Sony" />
+        </div>
+        <div class="blog-info">
+          <div class="blog-post-title">
+            Tai nghe Sony WH-1000XM6 sắp ra mắt sẽ trở thành headphone đáng mua nhất năm 2025?
+          </div>
+          <div class="blog-post-meta">
+            Lê P.N, 15/02/2025
+          </div>
+        </div>
+      </div>
+      <!-- Bài blog 3 -->
+      <div class="blog-item">
+        <div class="image-12">
+          <img src="assets/blog_image/headphone.png" alt="Tai nghe Sony" />
+        </div>
+        <div class="blog-info">
+          <div class="blog-post-title">
+            Tai nghe Sony WH-1000XM6 sắp ra mắt sẽ trở thành headphone đáng mua nhất năm 2025?
+          </div>
+          <div class="blog-post-meta">
+            Lê P.N, 15/02/2025
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

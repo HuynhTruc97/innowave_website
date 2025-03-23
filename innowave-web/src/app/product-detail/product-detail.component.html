@@ -1,0 +1,213 @@
+<div class="product-detail-container">
+  <nav class="breadcrumb-container" *ngIf="product">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a routerLink="/homepage">Trang chủ</a>
+      </li>
+      <li class="breadcrumb-separator">/</li>
+      <li class="breadcrumb-item">
+        <a routerLink="/products">Tất cả sản phẩm</a>
+      </li>
+      <li class="breadcrumb-separator">/</li>
+      <!-- Sử dụng category_id -->
+      <li class="breadcrumb-item">
+        <a [routerLink]="getProductCategory(product.category_id).routerLink">
+          {{ getProductCategory(product.category_id).category }}
+        </a>
+      </li>
+      <li class="breadcrumb-separator">/</li>
+      <li class="breadcrumb-item active">{{ product.name }}</li>
+    </ol>
+  </nav>
+
+  <div class="product-detail" *ngIf="product">
+    <div class="product-image">
+      <img [src]="product.image_url" [alt]="product.name" class="innowave-wlhp-0100-1">
+    </div>
+    <div class="product-info">
+      <h1>{{ product.name }}</h1>
+      <div class="price-section">
+        <p class="price">{{ product.discounted_price | currency:'VND':true }}</p>
+        <div class="original-price-and-discount">
+          <p class="original-price">{{ product.original_price | currency:'VND':true }}</p>
+          <p class="discount">- {{ product.discount_percentage }}%</p>
+        </div>
+      </div>
+      <div class="quantity">
+        <label>Số lượng:</label>
+        <div class="quantity-control">
+          <button class="qty-btn minus" (click)="decrement()">-</button>
+          <input type="number" 
+                 [formControl]="quantity"
+                 class="quantity-input"
+                 min="1"
+                 value="1">
+          <button class="qty-btn plus" (click)="increment()">+</button>
+        </div>
+      </div>
+      
+      <div class="colors">
+        <label for="colors">Màu sắc:</label>
+        <div class="color" style="background: #000000;"></div>
+        <div class="color" style="background: #FFFFFF;"></div>
+        <div class="color" style="background: #FF0000;"></div>
+        <div class="color" style="background: #00FF00;"></div>
+        <div class="color" style="background: #0000FF;"></div>
+      </div>
+      <div class="button-darkbg">
+        <button class="button" (click)="addToCart(product)">Thêm vào giỏ hàng</button>
+        <button class="button" (click)="addToWishlist(product)">Thêm vào yêu thích</button>
+      </div>
+      <button class="button-buy-now" (click)="buyNow(product)">MUA NGAY</button>
+    </div>
+  </div>
+
+  <!-- Tab Navigation -->
+  <div class="tab-nav">
+    <button 
+      [class.active]="activeTab === 'specs'"
+      (click)="activeTab = 'specs'"
+    >
+      Thông số kỹ thuật
+    </button>
+    <button 
+      [class.active]="activeTab === 'reviews'"
+      (click)="activeTab = 'reviews'"
+    >
+      Đánh giá từ khách hàng ({{ reviews.length }})
+    </button>
+  </div>
+
+  <!-- Thông số kỹ thuật -->
+  <div class="specification-table" *ngIf="activeTab === 'specs' && descriptionEntries.length > 0">
+    <table>
+      <tbody>
+        <tr *ngFor="let entry of descriptionEntries">
+          <th>{{ entry.key }}</th>
+          <td>
+            <ul>
+              <li *ngFor="let item of entry.value">{{ item }}</li>
+            </ul>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <div class="reviews-section" *ngIf="activeTab === 'reviews' && reviews.length > 0">
+    
+    
+  <!-- Phân phối đánh giá theo sao -->
+  <div class="rating-container">
+    <!-- Rating Summary -->
+    <!-- Rating Summary -->
+    <div class="rating-summary">
+      <div class="average-rating">
+        <div class="average"> <span class="star-icon">★</span> {{ averageRating.toFixed(1) }}</div>
+        <div class="total-ratings">/5</div>
+      </div>
+      <div class="review-count">
+        {{ reviews.length }} đánh giá
+      </div>
+      </div>
+  
+    <!-- Rating Distribution -->
+    <div class="rating-distribution">
+      <div *ngFor="let rating of [5,4,3,2,1]" class="rating-bar">
+        <span class="stars">
+          {{ rating }}  <span class="star-icon">★</span>
+        </span>
+        <div class="progress">
+          <div class="progress-bar" 
+               [style.width.%]="(ratingCounts[rating] / reviews.length) * 100">
+          </div>
+        </div>
+        <span class="rating-count">
+          {{ ratingCounts[rating] }} đánh giá
+        </span>
+      </div>
+    </div>
+  </div>
+  <!-- Filter Section -->
+    <div class="filter-controls">
+      <h2> <div class="filter-title"> Lọc theo </div> </h2>
+      <div class="filter-buttons">
+        <button 
+          *ngFor="let filter of ratingFilters"
+          [class.active]="selectedRating === filter.value"
+          (click)="filterReviews(filter.value)"
+        >
+          {{ filter.label }}
+        </button>
+        <button class="has-image-filter">
+          <i class="fas fa-camera"></i> Có hình ảnh
+        </button>
+      </div>
+    </div>
+    
+    <!-- Review List -->
+    <div class="review-list">
+      <div *ngFor="let review of filteredReviews | slice:0:visibleReviews" class="review-item">
+        <div class="user-info">
+          <span class="user-name">{{ review.user_id }}</span>
+          <div class="stars">
+            <!-- Sửa lại phần hiển thị sao -->
+            <span *ngFor="let star of getStars(review.rating)">
+              <span class= "star-icon" *ngIf="star === 1">★</span>
+              <span class = "star-icon"*ngIf="star === 0">☆</span>
+            </span>
+          </div>
+          <span class="review-date">{{ formatDate(review.date_created) }}</span>
+        </div>
+        <p class="comment">{{ review.comment }}</p>
+      </div>
+    </div>
+
+    <!-- Review Actions -->
+    <div class="review-actions">
+      <button 
+        *ngIf="visibleReviews < filteredReviews.length" 
+        class="show-more-btn"
+        (click)="loadMoreReviews()"
+      >
+        Xem thêm đánh giá
+      </button>
+      <button class="write-review-btn">
+        <i class="fas fa-pencil-alt"></i> Viết đánh giá
+      </button>
+    </div>
+  </div>
+  <!-- Sản phẩm liên quan -->
+  <div class="related-product-section" *ngIf="relatedProducts.length > 0">
+    <h3 class="related-title">Sản phẩm liên quan</h3>
+    <div class="product-list">
+      <div *ngIf="relatedProducts.length === 0" class="loading">Đang tải sản phẩm...</div>
+      <div *ngFor="let product of relatedProducts | slice:0:4" class="product">
+        <div class="frame-93">
+          <div class="_30">-{{ product.discount_percentage }}%</div>
+        </div>
+        <div class="image">
+          <a [routerLink]="['/product-detail', product.product_id]">
+            <img class="product-image" [src]="product.image_url" [alt]="product.name">
+          </a>
+        </div>
+        <div class="menu-item">
+          <div class="menu-item2">{{ product.name }}</div>
+        </div>
+        <div class="menu-item3">
+          <div class="menu-item4">₫ {{ product.discounted_price | number }}</div>
+        </div>
+        <div class="menu-item5">
+          <div class="menu-item6">₫ {{ product.original_price | number }}</div>
+        </div>
+        <div class="button" (click)="addToCart(product)">
+          <div class="button2">Thêm vào giỏ hàng</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+

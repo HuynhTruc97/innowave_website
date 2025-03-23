@@ -1,0 +1,158 @@
+/* Thêm font Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+.register-form {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem 3rem; /* Tăng padding ngang */
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    margin-top: 5rem;
+    font-family: 'Open Sans', sans-serif; /* Áp dụng font */
+    box-sizing: border-box; /* Đảm bảo padding không ảnh hưởng chiều rộng */
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #333;
+    font-size: 14px; /* Giảm kích thước label */
+}
+
+/* Điều chỉnh input */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box; /* Giữ nguyên chiều rộng */
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Hint text */
+.hint {
+    font-size: 0.75rem; /* Giảm kích thước */
+    color: #666;
+    margin-top: 0.25rem;
+    line-height: 1.4;
+}
+
+/* Nút đăng ký */
+.btn-submit {
+    background: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background 0.3s;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+    font-family: 'Open-Sans';
+}
+
+.btn-submit:hover {
+    background: #0069d9;
+}
+
+/* Checkbox */
+.form-check {
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.form-check input {
+    margin: 0;
+}
+
+.form-check label {
+    margin-left: 8px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Error message */
+.error {
+    color: #dc3545;
+    font-size: 0.75rem;
+    margin-top: 0.25rem;
+}
+
+/* Phần chuyển hướng đăng nhập */
+.login-redirect {
+    text-align: center;
+    margin: 1.5rem 0;
+    color: #666;
+    font-size: 14px;
+}
+
+.login-redirect a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* Social login */
+.social-login {
+    margin: 2rem 0 1rem;
+}
+
+.divider {
+    color: #666;
+    margin: 1.5rem 0;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    margin: 0 0.5rem;
+}
+
+/* Nút mạng xã hội */
+.btn-social {
+    width: 100%;
+    padding: 10px;
+    margin: 0.5rem 0;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: all 0.3s;
+    border: 1px solid #ddd;
+    background: white;
+}
+
+.btn-social .icon {
+    width: 18px;
+    height: 18px;
+}
+
+/* Facebook button */
+.btn-social.facebook {
+    background: #1877f2;
+    color: white;
+    border-color: transparent;
+}

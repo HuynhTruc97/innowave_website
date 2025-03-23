@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* =====================================
+   1. Reset & Thiết lập cơ bản
+   ===================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==================================
+   Breadcrumb (đường dẫn điều hướng)
+   ================================== */
+.breadcrumb-container {
+  margin: 16px 20px;
+  font-family: 'OpenSans-Regular', sans-serif;
+  font-size: 16px;
+  margin-bottom: 20px;
+  margin-top: 150px;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-wrap: nowrap;
+}
+
+.breadcrumb-item {
+  color: #555;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+  color: #03456a;
+  transition: color 0.2s;
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline;
+  color: #02314f;
+}
+
+.breadcrumb-separator {
+  margin: 0 8px;
+  color: #999;
+}
+
+.breadcrumb-item.active {
+  color: #555;
+}
+
+/* =====================================
+      Thanh Filter (Filter Bar)
+      ===================================== */
+.filter-container {
+  width: 100%;
+  background-color: #03456a;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  margin-bottom: 10px;
+  font-family: 'OpenSans-Regular', sans-serif;
+  height: 60px;
+  overflow: hidden;
+}
+
+.filter-bar.collapsed {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+
+.filter-bar.expanded {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.filter-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.filter-right .filter-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.filter-right .filter-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.filter-options {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  /* Cho phép xuống dòng nếu quá dài */
+}
+
+.filter-option {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, text-decoration 0.2s ease-in-out;
+}
+
+.filter-option:hover {
+  transform: scale(1.05);
+  text-decoration: underline;
+}
+
+.filter-close {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.filter-close .filter-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.filter-close .filter-text {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* =====================================
+      3. Danh sách sản phẩm (Grid)
+      ===================================== */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* Mặc định 4 cột (desktop) */
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+  align-items: stretch;
+  /* Giúp các .product trong cùng 1 hàng có chiều cao bằng nhau */
+  max-width: 100%;
+  margin: 0 auto;
+  /* Căn giữa vùng hiển thị */
+}
+
+/* =====================================
+      Card sản phẩm (Flexbox)
+      ===================================== */
+.product {
+  /* Flex dọc để đẩy nút xuống đáy */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: none;
+  background: #fff;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+
+.product:hover {
+  transform: scale(1.05);
+}
+
+.frame-93 {
+  background: #faa62d;
+  padding: 4px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  border-radius: 3px;
+}
+
+._30 {
+  color: #ffffff;
+  font-family: 'OpenSans-Regular', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.image {
+  width: 100%;
+  height: 220px;
+  /* Chiều cao đồng nhất cho ảnh */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.product-image {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* Thông tin sản phẩm */
+.menu-item,
+.menu-item2,
+.menu-item3,
+.menu-item5 {
+  margin: 5px 0;
+  font-family: 'OpenSans-Regular', sans-serif;
+}
+
+/* Giá khuyến mãi */
+.menu-item3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #023d5d;
+}
+
+/* Giá gốc (gạch ngang) */
+.menu-item5 {
+  font-size: 16px;
+  color: #6e6e6e;
+  text-decoration: line-through;
+}
+
+/* =====================================
+       Nút "Thêm vào giỏ hàng"
+      ===================================== */
+.button {
+  margin-top: auto;
+  background: #5792ad;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  padding: 12px 16px;
+  text-align: center;
+  color: #ffffff;
+  font-family: 'OpenSans-Regular', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background: #ffffff;
+  color: #5792ad;
+  border-color: #03456a;
+}
+
+/* =====================================
+       Container cho nút "Xem thêm"
+      ===================================== */
+.load-more-container {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.btn-load-more {
+  background: #ffffff;
+  border: 1px solid #03456a;
+  border-radius: 10px;
+  padding: 10px 20px;
+  display: inline-block;
+  color: #03456a;
+  font-family: 'OpenSans-Regular', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.btn-load-more:hover {
+  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+/* =====================================
+      7. Responsive (Tablet, Mobile)
+      ===================================== */
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .product-list {
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 cột */
+  }
+
+  .filter-container {
+    height: auto;
+    /* Chiều cao tự động */
+    padding: 10px 15px;
+  }
+
+  .filter-bar.collapsed,
+  .filter-bar.expanded {
+    flex-wrap: wrap;
+    height: auto;
+  }
+}
+
+/* Tablet nhỏ / Phablet (max-width: 768px) */
+@media (max-width: 768px) {
+  .product-list {
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 cột */
+  }
+
+  .filter-container {
+    height: auto;
+    padding: 10px 15px;
+  }
+
+  .filter-bar.collapsed,
+  .filter-bar.expanded {
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: flex-start;
+  }
+
+  .filter-right .filter-icon {
+    width: 25px;
+    height: 25px;
+  }
+
+  .filter-right .filter-text {
+    font-size: 14px;
+  }
+
+  .filter-options {
+    gap: 15px;
+  }
+
+  .filter-option {
+    font-size: 14px;
+  }
+}
+
+/* Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .product-list {
+    grid-template-columns: repeat(1, 1fr);
+    /* 1 cột */
+  }
+
+  .filter-container {
+    height: auto;
+    padding: 10px;
+  }
+
+  .filter-bar.collapsed,
+  .filter-bar.expanded {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  .filter-right {
+    margin-bottom: 10px;
+  }
+
+  .filter-right .filter-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .filter-right .filter-text {
+    font-size: 14px;
+  }
+
+  .filter-options {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .filter-option {
+    font-size: 14px;
+  }
+}
